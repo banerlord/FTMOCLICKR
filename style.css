@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f5f5f5;
+    background-image: url('images/background.png'); /* L'image de fond */
+    background-repeat: repeat; /* Répète l'image en mosaïque */
+    background-size: auto; /* Laisse l'image à sa taille originale */
+    cursor: url('images/coupe.cur') 16 16, pointer !important; /* Curseur personnalisé */
+}
+
+#game-container {
+    text-align: center;
+}
+
+#title {
+    background-color: black; /* Fond noir pour le titre */
+    color: white; /* Texte en blanc */
+    font-size: 32px; /* Taille de la police */
+    padding: 10px 20px; /* Espace autour du texte */
+    margin-bottom: 20px; /* Espace en dessous du titre */
+    font-weight: bold; /* Texte en gras */
+}
+
+#foot-image {
+    width: 300px;
+    transition: transform 0.5s;
+}
+
+#score {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: red; /* Texte en rouge */
+}
